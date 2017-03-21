@@ -1,0 +1,14 @@
+/*.navbar{
+	background-color: #FF700A;
+}*/
+.nav-pills .nav-link.active {
+	color: #292b2c;
+	background-color: #ff8229;
+}
+.nav a {
+   color: #292b2c;
+ }
+ .btn-warning{
+ 	background-color: #ff8229;
+ 	border-color: #ff8229;
+ }
