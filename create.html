@@ -3,11 +3,9 @@
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
-        <meta name="description" content="Descrição">
-        <meta name="keywords" content="SA-MP,Scripts,Pawno,WolFox,filterscripts,fs">
         <meta name="author" content="Astiks,IngAneh">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>WolFox - Staff</title>
+        <title>WolFox Dasboard</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
         <!-- Custom styles for this template by Astiks-->
@@ -29,10 +27,11 @@
             <div class="collapse navbar-collapse" id="mainNav">
                 <div class="navbar-nav">
                     <a class="navbar-brand" href="#"> <img src="assets/img/wolfox.png" class="d-inline-block align-top" alt="">WolFox</a>
-                    <a class="nav-item nav-link " href="#">Home</a>
-                    <a class="nav-item nav-link active" href="#">Staff</a>
+                    <a class="nav-item nav-link active " href="index.html">Home</a>
+                    <a class="nav-item nav-link " href="staff.html">Staff</a>
                     <a class="nav-item nav-link " href="#">Scripts</a>
                     <a class="nav-item nav-link " href="#">Contacts</a>
+                    <!--
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         More
@@ -42,18 +41,66 @@
                             <a class="dropdown-item" href="#">Another action</a>
                             <a class="dropdown-item" href="#">Something else here</a>
                         </div>
-                    </li>
+                    </li>-->
                 </div>
             </div>
         </nav>
-        <!-- Cards -->
-        <div class="container-frued">
-            <ul class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index.html">Index</a></li>
-                <li class="breadcrumb-item"><a href="staff.html">Staff</a></li>
-            </ul>
-            <div id="main" class="container-fluid">
-                <h3 class="page-header">Staff list</h3>
+        <!-- Tab pane etc.. -->
+        <div class="tab-content py-5">
+        <nav class="nav justify-content-center nav-pills flex-column flex-md-row">
+            <a class="nav-link active" href="#AddStaff" data-toggle="tab">Add Staff</a>
+            <a class="nav-link" href="#EditWolFox" data-toggle="tab">Edit WolFox</a>
+            <a class="nav-link" href="#AddPost" data-toggle="tab">Add Post</a>
+        </nav>
+            <div class="tab-pane active" id="AddStaff">
+                <div class="container-frued">
+                    <div id="main" class="container-fluid">
+                        <h3 class="page-header">Add item</h3>
+                        <form action="staff.html">
+                          <!-- Form Area -->
+                          <hr/>
+                            <div class="row">
+                                 <div class="form-group col-md-4">
+                                    <label for="lala">Nick (Name)</label>
+                                    <input type="text" class="form-control" id="first_name" placeholder="First Name">
+                                 </div>
+                                 
+                                 <div class="form-group col-md-4">
+                                    <label for="campo2">Scripts</label>
+                                    <input type="text" class="form-control" id="scripts" placeholder="Number of scripts">
+                                 </div>
+                                 
+                                 <div class="form-group col-md-4">
+                                    <label for="campo3">Description</label>
+                                    <input type="text" class="form-control" id="function" placeholder="Function of equip">
+                                 </div>
+                            </div>
+                          <div id="actions" class="row">
+                            <div class="col-md-12">
+                              <button type="submit" class="btn btn-warning">Salvar</button>
+                              <a href="staff.html" class="btn btn-default">Cancelar</a>
+                              <hr/>
+                            </div>
+                          </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="EditWolFox">
+                <div class="container-frued">
+                    <div id="main" class="container-fluid">
+                        <h3 class="page-header">Edit WolFox</h3>
+                          <!-- Form Area -->
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="AddPost">
+                <div class="container-frued">
+                    <div id="main" class="container-fluid">
+                        <h3 class="page-header">Add Post</h3>
+                          <!-- Form Area -->
+                    </div>
+                </div>
             </div>
         </div>
         <!-- Footer Init -->

@@ -15,3 +15,19 @@
  /*.navbar .active {
   background-color: #ff8229;
 }*/
+.progress-bar{
+	background-color: #ff8229;
+}
+.popover-Astiks .popover {
+  position: relative;
+  display: block;
+}
+.badge-warning{
+	background-color: #ff8229; 
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
