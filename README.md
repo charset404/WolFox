@@ -4,7 +4,7 @@ WolFox, is a network created for developers and clans of online games. This proj
 
 ## Getting Started
 
-* [Demo](https://v4-alpha.getbootstrap.com) - View the project live
+* [Demo](https://github.com/IngAneh/WolFox) - View the project live
 
 ## Built With
 
