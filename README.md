@@ -13,7 +13,7 @@ WolFox, is a network created for developers and clans of online games. This proj
 
 ## Authors
 
-* **Astiks(IngAneh)** - *Bruno.b* - [IngAneh](https://github.com/IngAneh)
+* **Astiks(charset404)** - *Bruno.b* - [Charset404](https://github.com/charset404)
 
 See also the list of [contributors](https://github.com/IngAneh/WolFox/contributors) who participated in this project.
 
